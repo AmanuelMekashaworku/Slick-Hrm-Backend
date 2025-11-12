@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slick.Domain", "slick.Domain\slick.Domain.csproj", "{32C59D27-9BC6-42C3-B7E1-64222D87833C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slick.Application", "slick.Application\slick.Application.csproj", "{9AE67981-BB75-4827-BD94-A063D6769FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slick.infrastructure", "slick.infrastructure\slick.infrastructure.csproj", "{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slick.API", "slick.API\slick.API.csproj", "{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C59D27-9BC6-42C3-B7E1-64222D87833C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C59D27-9BC6-42C3-B7E1-64222D87833C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C59D27-9BC6-42C3-B7E1-64222D87833C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C59D27-9BC6-42C3-B7E1-64222D87833C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE67981-BB75-4827-BD94-A063D6769FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE67981-BB75-4827-BD94-A063D6769FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE67981-BB75-4827-BD94-A063D6769FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE67981-BB75-4827-BD94-A063D6769FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {223525EE-1E77-4C81-B846-FB67EA7A156D}
+	EndGlobalSection
+EndGlobal

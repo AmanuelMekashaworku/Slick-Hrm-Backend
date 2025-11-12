@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\services\\interfaces\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\services\\interfaces\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\interfaces\\igeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\interfaces\\igeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Interfaces\\Authentication\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "slick.Application\\Services\\Interfaces\\Authentication\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Interfaces\\Authentication\\IAuthenticationService.cs",
+              "RelativeToolTip": "slick.Application\\Services\\Interfaces\\Authentication\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:10:19.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Interfaces\\IGeneric.cs",
+              "RelativeDocumentMoniker": "slick.Domain\\Interfaces\\IGeneric.cs",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Interfaces\\IGeneric.cs",
+              "RelativeToolTip": "slick.Domain\\Interfaces\\IGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:08:55.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
