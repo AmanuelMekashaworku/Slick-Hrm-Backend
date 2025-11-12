@@ -1,8 +1,6 @@
-﻿using slick.Domain.Entities;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace SMS.Domain.Models
+namespace slick.Domain.Models
 {
    public  class ControllerAction
     {
@@ -12,7 +10,7 @@ namespace SMS.Domain.Models
         public Guid TaskControllerId { get; set; }
         public required TaskController TaskController { get; set; }
         public Guid ActionTaskId { get; set; }
-        public required ActionTask ActionTask { get; set; }
+        public virtual required slick.Domain.Entities.ActionTask ActionTask { get; set; }
         public bool IsActive { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime CreatedDate { get; set; }

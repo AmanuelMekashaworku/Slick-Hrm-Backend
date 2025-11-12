@@ -1,13 +1,13 @@
-﻿using erp.Application.DTOs;
-using erp.Application.DTOs.Role;
-using erp.Application.DTOs.RolePermission;
+﻿using slick.Application.DTOs;
+using slick.Application.DTOs.Role;
+using slick.Application.DTOs.RolePermission;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace erp.Application.Services.Interfaces
+namespace slick.Application.Services.Interfaces
 {
     public interface IRoleService
     {

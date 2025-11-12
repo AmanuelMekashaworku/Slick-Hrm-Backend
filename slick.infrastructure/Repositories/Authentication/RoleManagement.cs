@@ -1,9 +1,6 @@
-﻿using slick.Application.DTOs.RolePermission;
-using slick.Domain.Entities.Identity;
-using slick.Domain.Interfaces.Authentication;
+﻿using slick.Domain.Interfaces.Authentication;
 using Microsoft.AspNetCore.Identity;
-using SMS.Domain.Models;
-using System.Threading.Tasks;
+using slick.Domain.Models;
 
 namespace slick.Infrastructure.Authentication
 {

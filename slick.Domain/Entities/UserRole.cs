@@ -1,8 +1,6 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel;
 using Microsoft.AspNetCore.Identity;
 
-namespace SMS.Domain.Models
+namespace slick.Domain.Models
 {
     public class UserRole : IdentityUserRole<string>
     {

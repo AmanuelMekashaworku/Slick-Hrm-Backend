@@ -1,8 +1,6 @@
-
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel;
 
-namespace SMS.Domain.Models
+namespace slick.Domain.Models
 {
     public class Permission
     {
@@ -10,7 +8,7 @@ namespace SMS.Domain.Models
         public Guid Id { get; set; }
         public required string PermissionTitle { get; set; }
         public Guid ControllersActionId { get; set; }
-        public ControllerAction? ControllersAction { get; set; }
+        public virtual ControllerAction? ControllersAction { get; set; }
         public bool IsActive { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime CreatedDate { get; set; }

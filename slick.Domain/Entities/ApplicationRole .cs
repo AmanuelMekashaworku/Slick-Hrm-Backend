@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using System.Collections.Generic;
 
-namespace SMS.Domain.Models
+namespace slick.Domain.Models
 {
     public class ApplicationRole : IdentityRole
     {

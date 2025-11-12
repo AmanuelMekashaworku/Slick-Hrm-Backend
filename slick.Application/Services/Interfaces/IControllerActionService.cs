@@ -1,12 +1,12 @@
-﻿using erp.Application.DTOs;
-using erp.Application.DTOs.ControllerAction;
+﻿using slick.Application.DTOs;
+using slick.Application.DTOs.ControllerAction;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace erp.Application.Services.Interfaces
+namespace slick.Application.Services.Interfaces
 {
     public interface IControllerActionService
     {

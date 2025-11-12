@@ -1,15 +1,11 @@
 ﻿using slick.Application.DTOs;
 using slick.Application.DTOs.Identity;
-using slick.Application.DTOs.Role;
 using slick.Application.DTOs.RolePermission;
-using slick.Application.Services.Implementations;
 using slick.Application.Services.Interfaces;
 using slick.Application.Services.Interfaces.Authentication;
-using slick.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
-using SMS.Domain.Models;
 using System.Security.Claims;
 using System.Security.Cryptography;
 

@@ -1,6 +1,6 @@
 ﻿using slick.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
-using SMS.Domain.Models;
+using slick.Domain.Models;
 
 public class AppUser : IdentityUser
 {

@@ -1,11 +1,9 @@
 ﻿using AutoMapper;
 using slick.Application.DTOs;
-using slick.Application.DTOs.Role;
 using slick.Application.DTOs.RolePermission;
 using slick.Application.Services.Interfaces;
-using slick.Domain.Entities;
 using slick.Domain.Interfaces;
-using SMS.Domain.Models;
+using slick.Domain.Models;
 using System.Linq.Expressions;
 
 namespace slick.Application.Services.Implmentations

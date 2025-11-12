@@ -1,12 +1,12 @@
-﻿using erp.Application.DTOs;
-using erp.Application.DTOs.Identity;
+﻿using slick.Application.DTOs;
+using slick.Application.DTOs.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace erp.Application.Services.Interfaces
+namespace slick.Application.Services.Interfaces
 {
     public interface IUserService
     {

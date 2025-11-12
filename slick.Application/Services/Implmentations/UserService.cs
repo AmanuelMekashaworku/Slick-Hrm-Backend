@@ -1,18 +1,9 @@
 ﻿using AutoMapper;
 using slick.Application.DTOs;
-using slick.Application.DTOs.BusinessGroup;
-using slick.Application.DTOs.Car;
 using slick.Application.DTOs.Identity;
-using slick.Application.DTOs.SupplierType;
-using slick.Application.DTOs.TermandCondition;
-using slick.Application.DTOs.TP_TermandCondition;
-using slick.Application.DTOs.TransportPerforma;
 using slick.Application.Services.Interfaces;
-using slick.Domain.Entities;
 using slick.Domain.Interfaces;
 using slick.Domain.Interfaces.Authentication;
-using Microsoft.AspNetCore.Identity;
-using SMS.Domain.Models;
 using System.Linq.Expressions;
 
 namespace slick.Application.Services.Implementations

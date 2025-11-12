@@ -1,4 +1,4 @@
-﻿namespace erp.Application.Services.Interfaces
+﻿namespace slick.Application.Services.Interfaces
 {
     public class SMTPSettings
     {

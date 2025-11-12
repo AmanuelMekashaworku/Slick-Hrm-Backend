@@ -1,6 +1,4 @@
-﻿using slick.Application.DTOs.RolePermission;
-
-namespace slick.Application.DTOs.Role
+﻿namespace slick.Application.DTOs.Role
 {
     public class RoleBaseDto
     {

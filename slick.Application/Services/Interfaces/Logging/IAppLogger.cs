@@ -1,4 +1,4 @@
-﻿namespace erp.Application.Services.Interfaces.Logging
+﻿namespace slick.Application.Services.Interfaces.Logging
 {
     public interface IAppLogger<T>
     {

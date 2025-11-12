@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace erp.Application.Services.Interfaces
+namespace slick.Application.Services.Interfaces
 {
     public interface IBackgroundJobService
     {

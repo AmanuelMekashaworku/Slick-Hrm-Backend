@@ -1,8 +1,6 @@
 ﻿using AutoMapper;
 using slick.Application.DTOs;
-using slick.Application.DTOs.Campus;
 using slick.Application.DTOs.Company;
-using slick.Application.DTOs.CompanyAccount;
 using slick.Application.Services.Interfaces;
 using slick.Domain.Entities;
 using slick.Domain.Interfaces;

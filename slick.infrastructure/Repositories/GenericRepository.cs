@@ -969,28 +969,8 @@ using Microsoft.EntityFrameworkCore;
                 return await UpdateWithNavigationAsync(entity, cancellationToken: cancellationToken).ConfigureAwait(false);
             }
             // Clean method for manual navigation updates
-            public async Task<int> UpdateWithManualNavigationAsync(CarPerforma entity, Func<CarPerforma, Task> navigationAction)
-            {
-                // Execute navigation actions (clearing and adding new items)
-                await navigationAction(entity);
-
-                // Mark main entity as modified
-                _context.Entry(entity).State = EntityState.Modified;
-
-                // Let EF Core automatically handle the navigation entities
-                return await _context.SaveChangesAsync();
-            }
-            public async Task<int> UpdateWithManualNavigationTransportAsync(TransportPerforma entity, Func<TransportPerforma, Task> navigationAction)
-            {
-                // Execute navigation actions (clearing and adding new items)
-                await navigationAction(entity);
-
-                // Mark main entity as modified
-                _context.Entry(entity).State = EntityState.Modified;
-
-                // Let EF Core automatically handle the navigation entities
-                return await _context.SaveChangesAsync();
-            }
+            
+          
             public async Task<List<TEntity>> GetPagedWithThenIncludeAsync<TProperty>(string? search,Expression<Func<TEntity, IEnumerable<TProperty>>> collectionSelector,Expression<Func<TProperty, object>> thenIncludeSelector,Expression<Func<TEntity, bool>>? baseFilter = null,List<Expression<Func<TEntity, string>>>? searchProperties = null,CancellationToken cancellationToken = default,params Expression<Func<TEntity, object>>[] includes) where TProperty : class
                 {
                     IQueryable<TEntity> query = _context.Set<TEntity>();
@@ -1381,14 +1361,7 @@ using Microsoft.EntityFrameworkCore;
                     .FirstOrDefaultAsync(cancellationToken);
             }
 
-            public async Task<int> UpdateWithManualNavigationGRNAsync(GRN entity, Func<GRN, Task> navigationAction)
-                {
-                    await navigationAction(entity);
-
-                    _context.Entry(entity).State = EntityState.Modified;
-
-                    return await _context.SaveChangesAsync();
-                }
+           
             public async Task<TEntity?> GetLastInsertedByRelationalAsync<TKey>(string? foreignKeyPropertyName = null,TKey? foreignKeyValue = default, CancellationToken cancellationToken = default, params Expression<Func<TEntity, object>>[] includes)
             {
                 var query = _dbSet.AsQueryable();

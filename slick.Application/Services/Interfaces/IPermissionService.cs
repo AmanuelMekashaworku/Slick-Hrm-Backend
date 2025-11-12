@@ -1,12 +1,12 @@
-﻿using erp.Application.DTOs;
-using erp.Application.DTOs.Permission;
+﻿using slick.Application.DTOs;
+using slick.Application.DTOs.Permission;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace erp.Application.Services.Interfaces
+namespace slick.Application.Services.Interfaces
 {
     public interface IPermissionService
     {

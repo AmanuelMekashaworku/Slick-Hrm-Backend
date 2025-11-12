@@ -1,10 +1,8 @@
-﻿using erp.Application.DTOs;
-using erp.Application.DTOs.Identity;
+﻿using slick.Application.DTOs;
+using slick.Application.DTOs.Identity;
 using Microsoft.AspNetCore.Http;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
-namespace erp.Application.Services.Interfaces.Authentication
+namespace slick.Application.Services.Interfaces.Authentication
 {
     public interface IAuthenticationService
     {

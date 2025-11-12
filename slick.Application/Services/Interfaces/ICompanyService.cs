@@ -1,7 +1,7 @@
-﻿using erp.Application.DTOs;
-using erp.Application.DTOs.Company;
+﻿using slick.Application.DTOs;
+using slick.Application.DTOs.Company;
 
-namespace erp.Application.Services.Interfaces
+namespace slick.Application.Services.Interfaces
 {
     public interface ICompanyService
     {

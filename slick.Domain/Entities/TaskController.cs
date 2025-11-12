@@ -1,7 +1,6 @@
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel;
 
-namespace SMS.Domain.Models
+namespace slick.Domain.Models
 {
     public class TaskController
     {

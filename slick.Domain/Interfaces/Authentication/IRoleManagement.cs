@@ -1,6 +1,6 @@
 ﻿using slick.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
-using SMS.Domain.Models;
+using slick.Domain.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

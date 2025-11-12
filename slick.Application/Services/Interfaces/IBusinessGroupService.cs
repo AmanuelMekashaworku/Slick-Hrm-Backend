@@ -1,8 +1,8 @@
-﻿using erp.Application.DTOs;
-using erp.Application.DTOs.BusinessGroup;
+﻿using slick.Application.DTOs;
+using slick.Application.DTOs.BusinessGroup;
 using System.Threading.Tasks;
 
-namespace erp.Application.Services.Interfaces
+namespace slick.Application.Services.Interfaces
 {
     public interface IBusinessGroupService
     {

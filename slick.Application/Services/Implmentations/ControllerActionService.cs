@@ -1,11 +1,8 @@
 ﻿using AutoMapper;
-using slick.Application.DTOs;
-using slick.Application.DTOs.Branch;
 using slick.Application.DTOs.ControllerAction;
 using slick.Application.Services.Interfaces;
-using slick.Domain.Entities;
 using slick.Domain.Interfaces;
-using SMS.Domain.Models;
+using slick.Domain.Models;
 using System.Linq.Expressions;
 
 namespace slick.Application.Services.Implementations
