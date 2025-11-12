@@ -1,4 +1,4 @@
-﻿    using slick.Application.Mapping;
+﻿using slick.Application.Mapping;
 using slick.Application.Services.Implementations;
 using slick.Application.Services.Implementations.Authentication;
 using slick.Application.Services.Implmentations;
@@ -31,6 +31,9 @@ namespace slick.Application.DependencyInjection
         services.AddScoped<ITaskControllerService, TaskControllerService>();
         services.AddScoped<IControllerActionService, ControllerActionService>();
         services.AddScoped<IPermissionService, PermissionService>();
+        services.AddScoped<ITaskActionService, TaskActionService>();
+        services.AddScoped<IChatService, ChatService>();
+        services.AddScoped<IUserActivityLogService, UserActivityLogService>();
         services.AddScoped<ITaskActionService, TaskActionService>();
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<IRoleService, RoleService>();

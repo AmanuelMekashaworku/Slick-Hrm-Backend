@@ -11,5 +11,6 @@ namespace slick.Application.Services.Interfaces
     {
         void Enqueue<T>(Expression<Action<T>> methodCall);
         void Enqueue<T>(Expression<Func<T, Task>> methodCall); // Support async methods
+        void ScheduleRecurring<T>(Expression<Func<T, Task>> methodCall, string cronExpression, string recurringJobId, TimeZoneInfo? timeZone = null);
     }
 }

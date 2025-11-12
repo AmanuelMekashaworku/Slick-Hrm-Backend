@@ -47,6 +47,8 @@ namespace slick.infrastructure.DependencyInjection
             services.AddScoped<IGeneric<Branch>, GenericRepository<Branch>>();
             services.AddScoped<IGeneric<TaskController>, GenericRepository<TaskController>>();
             services.AddScoped<IGeneric<Permission>, GenericRepository<Permission>>();
+            services.AddScoped<IGeneric<ChatMessage>, GenericRepository<ChatMessage>>();
+            services.AddScoped<IGeneric<UserActivityLog>, GenericRepository<UserActivityLog>>();
             services.AddScoped<IGeneric<ControllerAction>, GenericRepository<ControllerAction>>();
             services.AddScoped<IGeneric<ActionTask>, GenericRepository<ActionTask>>();
             services.AddScoped<IGeneric<ApplicationRole>, GenericRepository<ApplicationRole>>();

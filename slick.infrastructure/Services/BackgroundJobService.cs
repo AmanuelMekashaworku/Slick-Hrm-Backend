@@ -17,5 +17,23 @@ namespace slick.Infrastructure.Services
         {
             BackgroundJob.Enqueue(methodCall);
         }
+        public void ScheduleRecurring<T>(
+             Expression<Func<T, Task>> methodCall,
+             string cronExpression,
+             string recurringJobId,
+             TimeZoneInfo? timeZone = null)
+        {
+            var options = new RecurringJobOptions
+            {
+                TimeZone = timeZone ?? TimeZoneInfo.Local
+            };
+
+            RecurringJob.AddOrUpdate(
+                recurringJobId,
+                methodCall,
+                cronExpression,
+                options
+            );
+        }
     }
 }

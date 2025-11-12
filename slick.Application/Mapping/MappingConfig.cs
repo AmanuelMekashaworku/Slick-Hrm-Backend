@@ -2,6 +2,7 @@
 using AutoMapper;
 using slick.Application.DTOs.Branch;
 using slick.Application.DTOs.BusinessGroup;
+using slick.Application.DTOs.Chat;
 using slick.Application.DTOs.Company;
 using slick.Application.DTOs.ControllerAction;
 using slick.Application.DTOs.Identity;
@@ -9,6 +10,7 @@ using slick.Application.DTOs.Permission;
 using slick.Application.DTOs.RolePermission;
 using slick.Application.DTOs.TaskAction;
 using slick.Application.DTOs.TaskController;
+using slick.Application.DTOs.UserLog;
 using slick.Domain.Entities;
 using slick.Domain.Models;
 
@@ -65,20 +67,6 @@ namespace slick.Application.Mapping
             CreateMap<ActionTask, GetTaskActionDto>();
 
           
-            //// Product mappings
-            //CreateMap<CreateProduct, Product>()
-            //    .ForMember(dest => dest.Images, opt => opt.Ignore()) // Ignore Images
-            //    .ForMember(dest => dest.Thumbnail, opt => opt.Ignore()) // Ignore Thumbnail
-            //    .ForMember(dest => dest.ProductAttributes, opt => opt.MapFrom(src => src.ProductAttributes))
-            //    .ForMember(dest => dest.ProductVariations, opt => opt.MapFrom(src => src.ProductVariations));
-            //CreateMap<UpdateProduct, Product>()
-            //    .ForMember(dest => dest.Images, opt => opt.Ignore()) // Ignore Images
-            //    .ForMember(dest => dest.Thumbnail, opt => opt.Ignore()); // Ignore Thumbnail
-            //CreateMap<Product, GetProduct>()
-            //        .ForMember(dest => dest.ProductAttributes, opt => opt.MapFrom(src => src.ProductAttributes ?? new List<ProductAttribute>()))
-            //        .ForMember(dest => dest.ProductVariations, opt => opt.MapFrom(src => src.ProductVariations ?? new List<ProductVariation>()))
-            //       .ForMember(dest => dest.Images, opt => opt.MapFrom(src => src.Images ?? new List<string>()));
-
 
 
             // User mappings
@@ -101,6 +89,15 @@ namespace slick.Application.Mapping
 
             CreateMap<ResetPassword, AppUser>()
                 .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Email));
+
+           CreateMap<CreateUserActivityLogDto, UserActivityLog>()
+              .ForMember(dest => dest.Id, opt => opt.Ignore()) 
+              .ForMember(dest => dest.CreatedDate, opt => opt.Ignore()); 
+
+           CreateMap<UserActivityLog, UserActivityLogDto>();
+            //chat mapping 
+            CreateMap<CreateChatMessageDto, ChatMessage>();
+            CreateMap<ChatMessage, ChatMessageDto>();
 
         }
     }

@@ -1,13 +1,10 @@
 ﻿using AutoMapper;
 using slick.Application.DTOs;
 using slick.Application.DTOs.Branch;
-using slick.Application.DTOs.BusinessGroup;
-using slick.Application.DTOs.Company;
 using slick.Application.Services.Interfaces;
 using slick.Domain.Entities;
 using slick.Domain.Interfaces;
 using System.Linq.Expressions;
-using System.Reflection;
 
 namespace slick.Application.Services.Implementations
 {

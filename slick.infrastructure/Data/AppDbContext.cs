@@ -19,14 +19,12 @@ namespace slick.infrastructure.Data
         // DbSet properties
         public DbSet<ActionTask> ActionTasks { get; set; }
         public DbSet<Branch> Branches { get; set; }
-      
+        public DbSet<ChatMessage> ChatMessages { get; set; }
         public DbSet<BusinessGroup> BusinessGroups { get; set; }
-       
         public DbSet<Company> Companies { get; set; }
-       
         public DbSet<VerificationToken> VerificationTokens { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
-     
+        public DbSet<UserActivityLog> UserActivityLogs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

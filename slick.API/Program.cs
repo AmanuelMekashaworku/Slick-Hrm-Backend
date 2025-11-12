@@ -1,9 +1,5 @@
-﻿using slick.Application.DependencyInjection;
-using slick.Application.Security;
-using slick.Application.Services.Interfaces;
-using slick.infrastructure.DependencyInjection;
-using slick.Infrastructure.Services;
-using Hangfire;
+﻿using Hangfire;
+using Hangfire.Common;
 using Hangfire.Dashboard.BasicAuthorization;
 using Hangfire.SqlServer;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -12,8 +8,13 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using slick.Application.DependencyInjection;
+using slick.Application.Security;
+using slick.Application.Services.Implementations;
+using slick.Application.Services.Interfaces;
+using slick.infrastructure.DependencyInjection;
+using slick.Infrastructure.Services;
 using System.Text;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Setup Serilog logging
@@ -136,7 +137,9 @@ builder.Services.AddCors(corsBuilder =>
             .AllowCredentials();
     });
 });
-
+// Add services
+builder.Services.AddSignalR();
+builder.Services.AddScoped<IChatService, ChatService>();
 try
 {
     var app = builder.Build();
@@ -234,6 +237,25 @@ try
 
 
     Log.Logger.Information("Application is running");
+
+    using (var scope = app.Services.CreateScope())
+    {
+        var backupService = scope.ServiceProvider.GetRequiredService<IDatabaseBackupService>();
+
+        var options = new RecurringJobOptions
+        {
+            TimeZone = TimeZoneInfo.Utc,
+        };
+
+        RecurringJob.AddOrUpdate<IDatabaseBackupService>(
+            recurringJobId: "daily-database-backup",
+            methodCall: service => service.BackupAsync(),
+            cronExpression: Cron.Daily(2, 0),
+            options: options
+        );
+
+        Log.Information("Recurring database backup job scheduled.");
+    }
     app.Run();
 }
 catch (Exception ex)
