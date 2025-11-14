@@ -76,3 +76,4 @@ appsettings.*.json  # Ignores environment-specific files (e.g., appsettings.Deve
 ~$*
 .DS_Store
 Thumbs.db
+/.vs
