@@ -250,7 +250,7 @@ try
         RecurringJob.AddOrUpdate<IDatabaseBackupService>(
             recurringJobId: "daily-database-backup",
             methodCall: service => service.BackupAsync(),
-            cronExpression: Cron.Daily(2, 0),
+            cronExpression: Cron.Daily(11, 0),
             options: options
         );
 

@@ -215,7 +215,7 @@ namespace slick.Application.Services.Implementations
         {
             try
             {
-                var result = await branchRepository.HardDeletewithcheckAsync(id);
+                var result = await branchRepository.HardDeleteonDeleteCascadeAsync(id);
                 return result > 0
                     ? new ServiceResponse(true, "Branch permanently deleted successfully.")
                     : new ServiceResponse(false, "Branch not found or could not be permanently deleted.");

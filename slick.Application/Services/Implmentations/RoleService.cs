@@ -196,9 +196,9 @@ namespace slick.Application.Services.Implementations
                 mapper.Map(roleDto, existing);
                 existing.LastModifiedDate = DateTime.Now;
 
-                if (!string.IsNullOrEmpty(roleDto.ModifiedBy) && Guid.TryParse(roleDto.ModifiedBy, out Guid modifiedByGuid))
+                if (!string.IsNullOrEmpty(roleDto.ModifiedBy))
                 {
-                    existing.ModifiedBy = modifiedByGuid;
+                    existing.ModifiedBy = roleDto.ModifiedBy;
                 }
                 else
                 {

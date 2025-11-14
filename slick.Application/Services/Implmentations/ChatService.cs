@@ -41,10 +41,13 @@ namespace slick.Application.Services.Implementations
 
                 if (string.IsNullOrWhiteSpace(search))
                 {
-                    var allMessages = await chatRepository.GetPagedAsync(
+                    var allMessages = await chatRepository.GetPagedIndexedAsync(
                         search: null,
                         baseFilter: m => true,
                         searchProperties: null,
+                        orderBy: q => q.OrderByDescending(m => m.CreatedDate), // <-- utilize index
+                        skip: null,  // optional: set page if needed
+                        take: null,  // optional: set page size if needed
                         cancellationToken: cancellationToken,
                         includes: includes
                     );
@@ -53,18 +56,21 @@ namespace slick.Application.Services.Implementations
                 }
 
                 var searchProperties = new List<Expression<Func<ChatMessage, string>>>
-                {
-                    x => x.Message,
-                    x => x.UserName,
-                    x => x.UserId
-                };
+        {
+            x => x.Message,
+            x => x.UserName,
+            x => x.UserId
+        };
 
-                var messages = await chatRepository.GetPagedAsync(
-                    search,
-                    m => true,
-                    searchProperties,
-                    cancellationToken,
-                    includes
+                var messages = await chatRepository.GetPagedIndexedAsync(
+                    search: search,
+                    baseFilter: m => true,
+                    searchProperties: searchProperties,
+                    orderBy: q => q.OrderByDescending(m => m.CreatedDate), // <-- utilize index
+                    skip: null,  // optional: set page if needed
+                    take: null,  // optional: set page size if needed
+                    cancellationToken: cancellationToken,
+                    includes: includes
                 );
 
                 return mapper.Map<List<ChatMessageDto>>(messages);
@@ -74,5 +80,6 @@ namespace slick.Application.Services.Implementations
                 return new List<ChatMessageDto>();
             }
         }
+
     }
 }

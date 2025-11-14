@@ -3,84 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}|slick.infrastructure\\slick.infrastructure.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.infrastructure\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}|slick.infrastructure\\slick.infrastructure.csproj|solutionrelative:slick.infrastructure\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}|slick.API\\slick.API.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}|slick.API\\slick.API.csproj|solutionrelative:slick.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}|slick.infrastructure\\slick.infrastructure.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.infrastructure\\services\\backgroundjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}|slick.infrastructure\\slick.infrastructure.csproj|solutionrelative:slick.infrastructure\\services\\backgroundjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}|slick.infrastructure\\slick.infrastructure.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}|slick.infrastructure\\slick.infrastructure.csproj|solutionrelative:slick.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}|slick.API\\slick.API.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.api\\log\\log20251112.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}|slick.API\\slick.API.csproj|solutionrelative:slick.api\\log\\log20251112.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\interfaces\\authentication\\iusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\interfaces\\authentication\\iusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\services\\implmentations\\useractivitylogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\services\\implmentations\\useractivitylogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\interfaces\\authentication\\itokenmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\interfaces\\authentication\\itokenmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\services\\implmentations\\taskcontrollerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\services\\implmentations\\taskcontrollerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}|slick.API\\slick.API.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}|slick.API\\slick.API.csproj|solutionrelative:slick.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}|slick.API\\slick.API.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85AD0C0-6D7D-4783-A24F-E7020CF71D42}|slick.API\\slick.API.csproj|solutionrelative:slick.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\mapping\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\mapping\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\services\\implmentations\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\services\\implmentations\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\dtos\\chat\\createchatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\dtos\\chat\\createchatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\dtos\\chat\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\dtos\\chat\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\services\\interfaces\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\services\\interfaces\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}|slick.infrastructure\\slick.infrastructure.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AF4F0B1-D0FC-44E0-9D31-56EC2527B276}|slick.infrastructure\\slick.infrastructure.csproj|solutionrelative:slick.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\entities\\useractivitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\entities\\useractivitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\entities\\businessgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\entities\\businessgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.application\\services\\implmentations\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE67981-BB75-4827-BD94-A063D6769FE2}|slick.Application\\slick.Application.csproj|solutionrelative:slick.application\\services\\implmentations\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|c:\\users\\eyoseyas\\documents\\github\\slick-hrm-backend\\slick.domain\\interfaces\\authentication\\irolemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C59D27-9BC6-42C3-B7E1-64222D87833C}|slick.Domain\\slick.Domain.csproj|solutionrelative:slick.domain\\interfaces\\authentication\\irolemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "slick.Domain\\Entities\\Company.cs",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\Company.cs",
+              "RelativeToolTip": "slick.Domain\\Entities\\Company.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wA8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:23:44.864Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -106,263 +67,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceContainer.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\DependencyInjection\\ServiceContainer.cs",
-              "RelativeDocumentMoniker": "slick.Application\\DependencyInjection\\ServiceContainer.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\DependencyInjection\\ServiceContainer.cs",
-              "RelativeToolTip": "slick.Application\\DependencyInjection\\ServiceContainer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:56:33.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "slick.infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "slick.infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Title": "BackgroundJobService.cs",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\Services\\BackgroundJobService.cs",
+              "RelativeDocumentMoniker": "slick.infrastructure\\Services\\BackgroundJobService.cs",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\Services\\BackgroundJobService.cs",
+              "RelativeToolTip": "slick.infrastructure\\Services\\BackgroundJobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:55:20.921Z",
+              "WhenOpened": "2025-11-13T12:22:53.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServiceContainer.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\DependencyInjection\\ServiceContainer.cs",
-              "RelativeDocumentMoniker": "slick.infrastructure\\DependencyInjection\\ServiceContainer.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\DependencyInjection\\ServiceContainer.cs",
-              "RelativeToolTip": "slick.infrastructure\\DependencyInjection\\ServiceContainer.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:54:59.655Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.API\\appsettings.json",
+              "RelativeDocumentMoniker": "slick.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.API\\appsettings.json",
+              "RelativeToolTip": "slick.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T12:22:41.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "log20251112.txt",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.API\\log\\log20251112.txt",
-              "RelativeDocumentMoniker": "slick.API\\log\\log20251112.txt",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.API\\log\\log20251112.txt",
-              "RelativeToolTip": "slick.API\\log\\log20251112.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-12T13:54:21.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaskControllerService.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Implmentations\\TaskControllerService.cs",
-              "RelativeDocumentMoniker": "slick.Application\\Services\\Implmentations\\TaskControllerService.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Implmentations\\TaskControllerService.cs",
-              "RelativeToolTip": "slick.Application\\Services\\Implmentations\\TaskControllerService.cs",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "slick.infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "slick.infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:52:34.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.API\\Program.cs",
-              "RelativeDocumentMoniker": "slick.API\\Program.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.API\\Program.cs",
-              "RelativeToolTip": "slick.API\\Program.cs",
-              "ViewState": "AgIAAOwAAAAAAAAAAAAowPcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:27:31.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.API\\Hubs\\ChatHub.cs",
-              "RelativeDocumentMoniker": "slick.API\\Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.API\\Hubs\\ChatHub.cs",
-              "RelativeToolTip": "slick.API\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:27:02.282Z",
+              "WhenOpened": "2025-11-13T12:22:31.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserActivityLogService.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Implmentations\\UserActivityLogService.cs",
-              "RelativeDocumentMoniker": "slick.Application\\Services\\Implmentations\\UserActivityLogService.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Implmentations\\UserActivityLogService.cs",
-              "RelativeToolTip": "slick.Application\\Services\\Implmentations\\UserActivityLogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "IUserManagement.cs",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Interfaces\\Authentication\\IUserManagement.cs",
+              "RelativeDocumentMoniker": "slick.Domain\\Interfaces\\Authentication\\IUserManagement.cs",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Interfaces\\Authentication\\IUserManagement.cs",
+              "RelativeToolTip": "slick.Domain\\Interfaces\\Authentication\\IUserManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T12:41:20.791Z",
+              "WhenOpened": "2025-11-13T12:18:29.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MappingConfig.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Mapping\\MappingConfig.cs",
-              "RelativeDocumentMoniker": "slick.Application\\Mapping\\MappingConfig.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Mapping\\MappingConfig.cs",
-              "RelativeToolTip": "slick.Application\\Mapping\\MappingConfig.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:18:07.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ChatService.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Implmentations\\ChatService.cs",
-              "RelativeDocumentMoniker": "slick.Application\\Services\\Implmentations\\ChatService.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Implmentations\\ChatService.cs",
-              "RelativeToolTip": "slick.Application\\Services\\Implmentations\\ChatService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:14:18.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IChatService.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Interfaces\\IChatService.cs",
-              "RelativeDocumentMoniker": "slick.Application\\Services\\Interfaces\\IChatService.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Interfaces\\IChatService.cs",
-              "RelativeToolTip": "slick.Application\\Services\\Interfaces\\IChatService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:13:12.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChatMessageDto.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\DTOs\\Chat\\ChatMessageDto.cs",
-              "RelativeDocumentMoniker": "slick.Application\\DTOs\\Chat\\ChatMessageDto.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\DTOs\\Chat\\ChatMessageDto.cs",
-              "RelativeToolTip": "slick.Application\\DTOs\\Chat\\ChatMessageDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:12:27.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateChatMessageDto.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\DTOs\\Chat\\CreateChatMessageDto.cs",
-              "RelativeDocumentMoniker": "slick.Application\\DTOs\\Chat\\CreateChatMessageDto.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\DTOs\\Chat\\CreateChatMessageDto.cs",
-              "RelativeToolTip": "slick.Application\\DTOs\\Chat\\CreateChatMessageDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:12:00.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ChatMessage.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\ChatMessage.cs",
-              "RelativeDocumentMoniker": "slick.Domain\\Entities\\ChatMessage.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\ChatMessage.cs",
-              "RelativeToolTip": "slick.Domain\\Entities\\ChatMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:11:22.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "slick.infrastructure\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "slick.infrastructure\\Repositories\\GenericRepository.cs",
+              "DocumentIndex": 5,
+              "Title": "ITokenManagement.cs",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Interfaces\\Authentication\\ITokenManagement.cs",
+              "RelativeDocumentMoniker": "slick.Domain\\Interfaces\\Authentication\\ITokenManagement.cs",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Interfaces\\Authentication\\ITokenManagement.cs",
+              "RelativeToolTip": "slick.Domain\\Interfaces\\Authentication\\ITokenManagement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:09:42.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T12:18:27.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserActivityLog.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\UserActivityLog.cs",
-              "RelativeDocumentMoniker": "slick.Domain\\Entities\\UserActivityLog.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\UserActivityLog.cs",
-              "RelativeToolTip": "slick.Domain\\Entities\\UserActivityLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:02:23.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\Company.cs",
-              "RelativeDocumentMoniker": "slick.Domain\\Entities\\Company.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\Company.cs",
-              "RelativeToolTip": "slick.Domain\\Entities\\Company.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:02:16.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BusinessGroup.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\BusinessGroup.cs",
-              "RelativeDocumentMoniker": "slick.Domain\\Entities\\BusinessGroup.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\BusinessGroup.cs",
-              "RelativeToolTip": "slick.Domain\\Entities\\BusinessGroup.cs",
+              "DocumentIndex": 6,
+              "Title": "IRoleManagement.cs",
+              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Interfaces\\Authentication\\IRoleManagement.cs",
+              "RelativeDocumentMoniker": "slick.Domain\\Interfaces\\Authentication\\IRoleManagement.cs",
+              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Interfaces\\Authentication\\IRoleManagement.cs",
+              "RelativeToolTip": "slick.Domain\\Interfaces\\Authentication\\IRoleManagement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:02:11.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\UserRole.cs",
-              "RelativeDocumentMoniker": "slick.Domain\\Entities\\UserRole.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Domain\\Entities\\UserRole.cs",
-              "RelativeToolTip": "slick.Domain\\Entities\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:02:03.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BranchService.cs",
-              "DocumentMoniker": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Implmentations\\BranchService.cs",
-              "RelativeDocumentMoniker": "slick.Application\\Services\\Implmentations\\BranchService.cs",
-              "ToolTip": "C:\\Users\\eyoseyas\\Documents\\GitHub\\Slick-Hrm-Backend\\slick.Application\\Services\\Implmentations\\BranchService.cs",
-              "RelativeToolTip": "slick.Application\\Services\\Implmentations\\BranchService.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T12:58:09.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T12:18:26.058Z"
             }
           ]
         }

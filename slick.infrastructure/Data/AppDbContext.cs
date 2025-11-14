@@ -1,10 +1,11 @@
-﻿using slick.Domain.Entities;
-using slick.Domain.Entities.Identity;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using slick.Domain.Entities;
+using slick.Domain.Entities.Identity;
 using slick.Domain.Models;
 using System.Linq.Expressions;
+using System.Reflection.Emit;
 
 namespace slick.infrastructure.Data
 {
@@ -75,7 +76,24 @@ namespace slick.infrastructure.Data
                     .WithMany()
                     .HasForeignKey(rp => rp.PermissionId);
             });
+            // Index on CreatedDate for sorting recent messages
+            builder.Entity<ChatMessage>()
+                .HasIndex(cm => cm.CreatedDate)
+                .HasDatabaseName("IX_ChatMessages_CreatedDate");
 
+            // Index on UserId for filtering by user
+            builder.Entity<ChatMessage>()
+                .HasIndex(cm => cm.UserId)
+                .HasDatabaseName("IX_ChatMessages_UserId");
+
+            // Composite index on UserId and CreatedDate for user-specific recent messages
+            builder.Entity<ChatMessage>()
+                .HasIndex(cm => new { cm.UserId, cm.CreatedDate })
+                .HasDatabaseName("IX_ChatMessages_UserId_CreatedDate");
+            // Optional: Composite index on UserId and CreatedDate (if sorting user-specific messages)
+            builder.Entity<ChatMessage>()
+                .HasIndex(cm => new { cm.UserId, cm.CreatedDate })
+                .HasDatabaseName("IX_ChatMessages_UserId_CreatedDate");
             // Configure other relationships
             ConfigureRelationships(builder);
             ConfigureEntityProperties(builder);
